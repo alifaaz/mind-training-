@@ -1,0 +1,14 @@
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\bin\Debug\net8.0\TrainYourMind_Zahra.exe
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\bin\Debug\net8.0\TrainYourMind_Zahra.deps.json
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\bin\Debug\net8.0\TrainYourMind_Zahra.runtimeconfig.json
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\bin\Debug\net8.0\TrainYourMind_Zahra.dll
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\bin\Debug\net8.0\TrainYourMind_Zahra.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.GeneratedMSBuildEditorConfig.editorconfig
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.AssemblyInfoInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.AssemblyInfo.cs
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.csproj.CoreCompileInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.dll
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\refint\TrainYourMind_Zahra.dll
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\TrainYourMind_Zahra.genruntimeconfig.cache
+E:\Problems_Solver_Bootcamp\VS_projects\TrainYourMind_Zahra\obj\Debug\net8.0\ref\TrainYourMind_Zahra.dll
