@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rUmHjLluXnPbE8Ga7wnp0N7A3V4iLB9cvTl4sr6CAzx2huzIH2GhYhm1/z49/h9UqXHQMD70DnUO5f6v1ZahJw==",
+  "success": true,
+  "projectFilePath": "/Users/ddo/Projects/HelloWorld/HelloWorld/HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "/Users/ddo/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/ddo/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
+    "/Users/ddo/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}

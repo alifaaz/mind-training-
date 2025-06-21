@@ -1,8 +1,0 @@
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\bin\Debug\Section 2 - Second 25 Task.exe.config
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\bin\Debug\Section 2 - Second 25 Task.exe
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\bin\Debug\Section 2 - Second 25 Task.pdb
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\obj\Debug\Section 2 - Second 25 Task.csproj.AssemblyReference.cache
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\obj\Debug\Section 2 - Second 25 Task.csproj.CoreCompileInputs.cache
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\obj\Debug\Section 2 - Second 25 Task.exe
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\obj\Debug\Section 2 - Second 25 Task.pdb
-D:\CSharp\ProjectNumberOne\TrainYourMindTask–MostafaOmar\Section 2 - Second 25 Task\obj\Debug\Section 2 - Second 25 Task.exe.config
