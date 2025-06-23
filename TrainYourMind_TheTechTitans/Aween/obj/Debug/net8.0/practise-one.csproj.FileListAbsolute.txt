@@ -1,0 +1,15 @@
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\bin\Debug\net8.0\practise-one.exe
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\bin\Debug\net8.0\practise-one.deps.json
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\bin\Debug\net8.0\practise-one.runtimeconfig.json
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\bin\Debug\net8.0\practise-one.dll
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\bin\Debug\net8.0\practise-one.pdb
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.AssemblyInfoInputs.cache
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.AssemblyInfo.cs
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.csproj.CoreCompileInputs.cache
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.sourcelink.json
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.dll
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\refint\practise-one.dll
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.pdb
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\practise-one.genruntimeconfig.cache
+C:\Users\aween\source\The-Tech-Titans\practise-one\practise-one\obj\Debug\net8.0\ref\practise-one.dll
