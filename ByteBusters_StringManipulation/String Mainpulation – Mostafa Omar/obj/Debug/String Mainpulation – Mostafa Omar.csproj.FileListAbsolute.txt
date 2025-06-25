@@ -1,0 +1,8 @@
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\bin\Debug\String Mainpulation – Mostafa Omar.exe.config
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\bin\Debug\String Mainpulation – Mostafa Omar.exe
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\bin\Debug\String Mainpulation – Mostafa Omar.pdb
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\obj\Debug\String Mainpulation – Mostafa Omar.csproj.AssemblyReference.cache
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\obj\Debug\String Mainpulation – Mostafa Omar.csproj.CoreCompileInputs.cache
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\obj\Debug\String Mainpulation – Mostafa Omar.exe
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\obj\Debug\String Mainpulation – Mostafa Omar.pdb
+D:\CSharp\ProjectNumberOne\string mainpulation – Mostafa Omar\String Mainpulation – Mostafa Omar\obj\Debug\String Mainpulation – Mostafa Omar.exe.config
