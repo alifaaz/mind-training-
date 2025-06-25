@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StringManipulation_Zahra/1.0.0": {
+        "runtime": {
+          "StringManipulation_Zahra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StringManipulation_Zahra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
