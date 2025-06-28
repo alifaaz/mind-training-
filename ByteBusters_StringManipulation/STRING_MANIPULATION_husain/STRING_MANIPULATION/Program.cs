@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.Design;
+using System;
+using System.ComponentModel.Design;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
@@ -111,7 +112,97 @@ namespace STRING_MANIPULATION
 
 
 
+
+
+
+
+
         }
+
+
+        /*
+            3. Write a C# Sharp program to compare two strings in following three different ways produce three different results.
+                a. using linguistic comparison for the en-US culture;
+                b. using linguistic case-sensitive comparison for the en-US culture;
+                c. using an ordinal comparison. It illustrates how the three methods of comparison
+                
+            NOTE: i think that a branch wanted case-sensitive and 
+                    in barnch b wanted case-insensitive you can see
+                    that clearly in the output he wanted:
+                    
+                        Expected Output :
+                             'sister' comes before 'Sister'.
+                             'sister' is the same as 'Sister'.
+                             'sister' comes after 'Sister'.
+         */
+
+
+        //  1. idenitifying the two texts 
+        //  2.  comaring them using by using string.equal(string,StringComparison) to do a then b then c
+
+        /*
+            
+          
+         
+         */
+
+        static void idk()
+        {
+            String Text1 = "sister";
+            String Text2 = "Sister";
+
+            // fing case-sensitive comparison for the en-US culture;
+            //  using String.Compare(Sting, Sting, bool , CultureInfo)
+            //  with false in bool as to not ignore case.
+            var US_culture = new CultureInfo("en-US");  //  culture en-us
+            int compare_US_culture_case_sensitive_Restult = String.Compare(Text1, Text2, false, US_culture);
+
+
+            //  fing case-insensitive comparison for the en-US culture
+            // same as before but with true in bool as to ignore case.
+            int compare_US_culture_Restult = String.Compare(Text1, Text2, true, US_culture);
+
+            //  fing ordinal comparison by using String.CompareOrdinal;
+
+            int CompareOrdinal_Restult = String.CompareOrdinal(Text1, Text2);
+
+            //  puting result into a one array
+            int[] resultArray = new int[3];
+            resultArray[0] = compare_US_culture_case_sensitive_Restult;
+            resultArray[1] = compare_US_culture_Restult;
+            resultArray[2] = CompareOrdinal_Restult;
+
+
+            //  printing the final output
+
+
+            String relationResult ="";
+            foreach (int i in resultArray)
+            {
+                if (i < 0)  //  comes before
+                {
+                    relationResult = "comes before";
+                }
+                else if (i == 0) //  is the same
+                {
+                    relationResult = "is the same as";
+                }
+
+
+                else if (i > 0)    //  comes after '
+                {
+                    relationResult = "comes after";
+                }
+
+                Console.WriteLine($"'{Text1}' {relationResult} '{Text2}'");
+            }
+
+
+
+           
+        }
+
+
         static void Main(string[] args)
         {
             idk();
@@ -122,4 +213,3 @@ namespace STRING_MANIPULATION
         
     }
 }
-
