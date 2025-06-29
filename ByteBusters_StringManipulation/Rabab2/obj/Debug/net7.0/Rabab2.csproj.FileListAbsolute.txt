@@ -1,0 +1,14 @@
+/home/rabab/Documents/putcamp/Rabab2/bin/Debug/net7.0/Rabab2
+/home/rabab/Documents/putcamp/Rabab2/bin/Debug/net7.0/Rabab2.deps.json
+/home/rabab/Documents/putcamp/Rabab2/bin/Debug/net7.0/Rabab2.runtimeconfig.json
+/home/rabab/Documents/putcamp/Rabab2/bin/Debug/net7.0/Rabab2.dll
+/home/rabab/Documents/putcamp/Rabab2/bin/Debug/net7.0/Rabab2.pdb
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.GeneratedMSBuildEditorConfig.editorconfig
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.AssemblyInfoInputs.cache
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.AssemblyInfo.cs
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.csproj.CoreCompileInputs.cache
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.dll
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/refint/Rabab2.dll
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.pdb
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/Rabab2.genruntimeconfig.cache
+/home/rabab/Documents/putcamp/Rabab2/obj/Debug/net7.0/ref/Rabab2.dll
