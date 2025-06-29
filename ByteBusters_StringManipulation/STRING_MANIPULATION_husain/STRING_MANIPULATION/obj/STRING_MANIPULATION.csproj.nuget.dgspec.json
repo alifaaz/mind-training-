@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj": {}
+    "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION_husain\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj": {
+    "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION_husain\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION_husain\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj",
         "projectName": "STRING_MANIPULATION",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION_husain\\STRING_MANIPULATION\\STRING_MANIPULATION.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION\\STRING_MANIPULATION\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\source\\repos\\STRING_MANIPULATION_husain\\STRING_MANIPULATION\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
