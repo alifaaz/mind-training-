@@ -1,0 +1,16 @@
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.exe
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.deps.json
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.runtimeconfig.json
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.dll
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\ref\StringsTrainings.dll
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\bin\Debug\net5.0\StringsTrainings.pdb
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.dll
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\ref\StringsTrainings.dll
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.pdb
+C:\Users\LENOVO\source\repos\StringsTrainings\StringsTrainings\obj\Debug\net5.0\StringsTrainings.genruntimeconfig.cache

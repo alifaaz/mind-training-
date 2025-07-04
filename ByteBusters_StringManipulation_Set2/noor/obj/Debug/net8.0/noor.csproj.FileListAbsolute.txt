@@ -1,0 +1,4 @@
+C:\Users\x67\source\repos\noor\obj\Debug\net8.0\noor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x67\source\repos\noor\obj\Debug\net8.0\noor.AssemblyInfoInputs.cache
+C:\Users\x67\source\repos\noor\obj\Debug\net8.0\noor.AssemblyInfo.cs
+C:\Users\x67\source\repos\noor\obj\Debug\net8.0\noor.csproj.CoreCompileInputs.cache

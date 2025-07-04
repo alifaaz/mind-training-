@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\strings_trains\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B717A60D-D6BF-4CB7-A614-9F2AC90DFE27}|strings_trains\\strings_trains.csproj|c:\\users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B717A60D-D6BF-4CB7-A614-9F2AC90DFE27}|strings_trains\\strings_trains.csproj|solutionrelative:strings_trains\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B717A60D-D6BF-4CB7-A614-9F2AC90DFE27}|strings_trains\\strings_trains.csproj|c:\\users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\first25qustion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B717A60D-D6BF-4CB7-A614-9F2AC90DFE27}|strings_trains\\strings_trains.csproj|solutionrelative:strings_trains\\first25qustion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "First25Qustion.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\First25Qustion.cs",
+              "RelativeDocumentMoniker": "strings_trains\\First25Qustion.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\First25Qustion.cs",
+              "RelativeToolTip": "strings_trains\\First25Qustion.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAQwCUBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:13:21.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainFile.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\mainFile.cs",
+              "RelativeDocumentMoniker": "strings_trains\\mainFile.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\strings_trains\\strings_trains\\mainFile.cs*",
+              "RelativeToolTip": "strings_trains\\mainFile.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T14:55:17.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

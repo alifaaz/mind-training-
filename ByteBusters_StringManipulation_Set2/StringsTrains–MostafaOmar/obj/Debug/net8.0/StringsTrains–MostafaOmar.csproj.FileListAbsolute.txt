@@ -1,0 +1,14 @@
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\bin\Debug\net8.0\StringsTrains–MostafaOmar.exe
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\bin\Debug\net8.0\StringsTrains–MostafaOmar.deps.json
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\bin\Debug\net8.0\StringsTrains–MostafaOmar.runtimeconfig.json
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\bin\Debug\net8.0\StringsTrains–MostafaOmar.dll
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\bin\Debug\net8.0\StringsTrains–MostafaOmar.pdb
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.AssemblyInfoInputs.cache
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.AssemblyInfo.cs
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.csproj.CoreCompileInputs.cache
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.dll
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\refint\StringsTrains–MostafaOmar.dll
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.pdb
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\StringsTrains–MostafaOmar.genruntimeconfig.cache
+D:\CSharp\Halal almshakl\StringsTrains–MostafaOmar\obj\Debug\net8.0\ref\StringsTrains–MostafaOmar.dll

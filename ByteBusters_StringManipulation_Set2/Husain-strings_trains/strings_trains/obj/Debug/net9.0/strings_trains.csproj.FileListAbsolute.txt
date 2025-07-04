@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\bin\Debug\net9.0\strings_trains.exe
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\bin\Debug\net9.0\strings_trains.deps.json
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\bin\Debug\net9.0\strings_trains.runtimeconfig.json
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\bin\Debug\net9.0\strings_trains.dll
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\bin\Debug\net9.0\strings_trains.pdb
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.dll
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\refint\strings_trains.dll
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.pdb
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\strings_trains.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\strings_trains\strings_trains\obj\Debug\net9.0\ref\strings_trains.dll
