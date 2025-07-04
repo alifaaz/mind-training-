@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using strings;
 
 Console.Write("Input string to Process: ");
@@ -6,4 +6,4 @@ string input = Console.ReadLine();
 //Console.Write("Input prefex to check: ");
 //string prefex = Console.ReadLine();
 
-Console.WriteLine($"check IsDigit: {StringHelper.FindAllDigits(input)}");
+Console.WriteLine($"check IsDigit: {StringHelper.ConvertStringToAsciiArray(input)}");
