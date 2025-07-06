@@ -1,0 +1,15 @@
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\bin\Debug\net8.0\HomeWorkTwo.exe
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\bin\Debug\net8.0\HomeWorkTwo.deps.json
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\bin\Debug\net8.0\HomeWorkTwo.runtimeconfig.json
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\bin\Debug\net8.0\HomeWorkTwo.dll
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\bin\Debug\net8.0\HomeWorkTwo.pdb
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.AssemblyInfoInputs.cache
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.AssemblyInfo.cs
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.csproj.CoreCompileInputs.cache
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.sourcelink.json
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.dll
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\refint\HomeWorkTwo.dll
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.pdb
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\HomeWorkTwo.genruntimeconfig.cache
+C:\Users\aween\source\The-Tech-Titans\practise-two\HomeWorkTwo\HomeWorkTwo\obj\Debug\net8.0\ref\HomeWorkTwo.dll
