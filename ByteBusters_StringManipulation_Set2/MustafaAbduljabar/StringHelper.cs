@@ -31,6 +31,401 @@ namespace strings
             }
             return NewString;
         }
+        public static string ExtractPhoneNumber(string str)
+        {
+            // Extracts phone numbers from the string.
+            str = SafteyCheckUsingLoop(str);
+            string NewString = string.Empty;
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                foreach (char c in str)
+                {
+                    if (char.IsDigit(c) || c == '+')
+                    {
+                        NewString += c;
+                    }
+                }
+                return NewString;
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+        }
+        public static string TrimStringToMaximumOf10Chars(string str)
+        {
+            // Trims the string to a maximum of 10 characters.
+            str = SafteyCheckUsingLoop(str);
+            string NewString = string.Empty;
+            try
+            {
+                str = str.Replace(' ', '_'); // Replace spaces with underscores
+                if (str.Length < 10)
+                {
+                    return str; // If the string is less than 10 characters, return it as is
+                }
+                else
+                {
+                    for (int i = 0; i < str.Length; i += 10)
+                    {
+                        if (i + 10 <= str.Length)
+                        {
+                            NewString += str.Substring(i, 10) + ","; // Take 10 characters at a time and add a comma
+                        }
+                        else
+                        {
+                            NewString += str.Substring(i); // Take the remaining characters if less than 10
+                        }
+                    }
+                    return NewString.Trim(); // Return the trimmed string
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+        }
+        public static string AddSpaceAfterEveryComma(string str)
+        {
+            // Adds a space after every comma in the string.
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                return str.Replace(",", ", "); // Replace commas with commas followed by a space
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+        }
+        public static string ConvertDecimalToBinary(string decimalString)
+        {
+            // Converts a decimal string to its binary equivalent.
+            decimalString = SafteyCheckUsingLoop(decimalString);
+            try
+            {
+                int number = Convert.ToInt32(decimalString); // Convert string to integer
+                return Convert.ToString(number, 2); // Convert integer to binary string
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid decimal format. Please enter a valid decimal number.");
+                return string.Empty;
+            }
+        }
+        public static string ConvertBinaryToDecimal(string binaryString)
+        {
+            // Converts a binary string to its decimal equivalent.
+            binaryString = SafteyCheckUsingLoop(binaryString);
+            try
+            {
+                return Convert.ToInt32(binaryString, 2).ToString(); // Convert binary to decimal
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid binary format. Please enter a valid binary string.");
+                return string.Empty;
+            }
+        }
+        public static string ReplaceEmojisWithAsterisks(string str)
+        {
+            // Replaces all emojis in the string with asterisks.
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                return Regex.Replace(str, @"[\p{So}]", "[Emoji]"); // Replace emojis with asterisks
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+        }
+        public static bool CheckStringIfOnlyWhiteSpace(string str)
+        {
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                return str.All(char.IsWhiteSpace); // Check if the string contains only whitespace characters;
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return false;
+            }
+        }
+        public static string RemoveVowels(string str)
+        {
+            // Removes all vowels from the string.
+            str = SafteyCheckUsingLoop(str);
+            string NewString = string.Empty;
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                str = FindAllLetters(str); // Extract only letters from the string
+                foreach (char c in str)
+                {
+                    if (!"aeiouAEIOU".Contains(c)) // Check if the character is not a vowel
+                    {
+                        NewString += c; // Append non-vowel characters to the new string
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+            return NewString; // Return the modified string without vowels
+        }
+        public static int CountOfCapitalizedWords(string str)
+        {
+            // Counts the number of capitalized words in the string.
+            str = SafteyCheckUsingLoop(str);
+            int count = 0;
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                string[] ArrayOfStrings = str.Split(' '); // Split the string into words
+                for (int i = 0; i < ArrayOfStrings.Length; i++)
+                {
+                    ArrayOfStrings[i] = FindAllLetters(ArrayOfStrings[i]); // Extract only letters from each word
+                }
+                foreach (var item in ArrayOfStrings)
+                {
+                    if (item.Length > 0 && char.IsUpper(item[0])) // Check if the first character of the word is uppercase
+                    {
+                        count++; // Increment the count for each capitalized word
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return 0;
+            }
+            return count; // Return the count of capitalized words
+        }
+        public static string ReplaceNumricsWithAsterisks(string str)
+        {
+            // Replaces all numeric characters in the string with Hashtag.
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                foreach (char c in str)
+                {
+                    if (char.IsDigit(c)) // Check if the character is a digit
+                    {
+                        str = str.Replace(c, '#'); // Replace digit with an Hashtag
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+            return str; // Return the modified string
+        }
+        public static string CamalCaseToSnakeCase(string str)
+        {
+            // Converts a CamelCase string to snake_case.
+            str = SafteyCheckUsingLoop(str);
+            string snake_string = string.Empty;
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+                str = FindAllLetters(str); // Extract only letters from the string
+                for (int i = 0; i < str.Length; i++)
+                {
+                    if (char.IsUpper(str[i]) && i > 0) // Check if the character is uppercase and not the first character
+                    {
+                        snake_string += "_"; // Add an underscore before uppercase letters
+                    }
+                    snake_string += char.ToLower(str[i]); // Convert the character to lowercase and add it to the result
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+            return snake_string; // Return the resulting snake_case string
+        }
+        public static string SnakeCaseToCamalCase(string str)
+        {
+            str = SafteyCheckUsingLoop(str);
+            string[] SplitStrings;
+            try
+            {
+                str = TrimEndAndStart(str);
+                if (str.IndexOf('_') == 0)
+                {
+                    str = str.Substring(1); // Remove leading underscore if present
+                }
+                foreach (var item in str)
+                {
+                    str = str.Replace('.', '_');
+                    str = str.Replace(' ', '_'); // Replace spaces and dots with underscores
+                }
+                SplitStrings = str.Split('_'); // Split the string by underscores
+                for (int i = 1; i < SplitStrings.Length; i++)
+                {
+                    if (SplitStrings[i].Length > 0) //check if the string is not empty and length is greater than 0
+                    {
+                        SplitStrings[i] = char.ToUpper(SplitStrings[i][0]) + SplitStrings[i].Substring(1).ToLower(); // Capitalize Only first letter
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+
+            }
+            return string.Join("", SplitStrings); // Join the strings without any separator
+
+
+        }
+        public static int CountOfChar(string str, char c)
+        {
+            // Counts the number of characters in the string.
+            str = SafteyCheckUsingLoop(str);
+            int count = 0;
+            try
+            {
+                for (int i = 0; i < str.Length; i++) // Loop through each character in the string
+                {
+                    if (str[i] == c)
+                    {
+                        count++;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return 0;
+            }
+            return count;
+        }
+        public static bool IsContainSpecialChar(string str)
+        {
+            // Checks if the string contains any special characters.
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                str = TrimEndAndStart(str); // Trim leading and trailing whitespace
+
+                return str.Any(c => !char.IsLetterOrDigit(c) && !char.IsWhiteSpace(c)); // Check for any character that is not a letter, digit, or whitespace
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return false;
+            }
+        }
+        public static string ConvertDateFormat(string date)
+        {
+            // Converts a date string to a formatted string.
+            date = SafteyCheckUsingLoop(date);
+            try
+            {
+                date = TrimEndAndStart(date); // Trim leading and trailing whitespace
+                return date = date.Replace("-", "/"); // Replace slashes with dashes
+
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid date format. Please enter a valid date.");
+                return string.Empty;
+            }
+
+        }
+        public static string ReplaceNewLineWithSpace(string str)
+        {
+            // Replaces all new line characters in the string with spaces.
+            str = SafteyCheckUsingLoop(str);
+            try
+            {
+                return str.Replace('\n', ' '); // Replace new line characters with one space
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+        }
+        public static string ExtractExtension(string str)
+        {
+            str = SafteyCheckUsingLoop(str);
+            string extension = string.Empty;
+            try
+            {
+                int LocationOfDot = str.LastIndexOf('.');
+                if (LocationOfDot != -1 && LocationOfDot < str.Length - 1)
+                {
+                    extension = str.Substring(LocationOfDot + 1); // Extract the substring after the last dot
+                }
+                else
+                {
+                    extension = "No extension found"; // If no dot is found or it's at the end of the string
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+            return extension;
+
+        }
+        public static string removeDuplicate(string str)
+        {
+            str = SafteyCheckUsingLoop(str);
+            str = TrimEndAndStart(str);
+            string NewString = string.Empty;
+            try
+            {
+                string[] _strings = str.Split(' ');
+                foreach (var item in _strings)
+                {
+                    if (!NewString.Contains(item))
+                    {
+                        NewString += item + " ";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
+                return string.Empty;
+            }
+            return NewString;
+        }
         public static string ConvertStringToAsciiArray(string str)
         {
             str = SafteyCheckUsingLoop(str);
@@ -47,7 +442,7 @@ namespace strings
 
                 throw;
             }
-            return string.Join(",",Ascii);
+            return string.Join(",", Ascii);
         }
         public static string MaskEmail(string email)
         {
@@ -80,14 +475,14 @@ namespace strings
         {
             // Finds all Letter in the string and returns them as a new string.
             str = SafteyCheckUsingLoop(str);
-            StringBuilder sb = new StringBuilder();
+            string NewString = string.Empty;
             try
             {
                 foreach (char c in str)
                 {
                     if (char.IsLetter(c))
                     {
-                        sb.Append(c);
+                        NewString = NewString + c;
                     }
                 }
             }
@@ -97,20 +492,20 @@ namespace strings
                 Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
                 return string.Empty;
             }
-            return sb.ToString();
+            return NewString;
         }
         public static string FindAllDigits(string str)
         {
             // Finds all digits in the string and returns them as a new string.
             str = SafteyCheckUsingLoop(str);
-            StringBuilder sb = new StringBuilder();
+            string NewString = string.Empty;
             try
             {
                 foreach (char c in str)
                 {
                     if (char.IsDigit(c))
                     {
-                        sb.Append(c);
+                        NewString += c;
                     }
                 }
             }
@@ -120,7 +515,7 @@ namespace strings
                 Console.WriteLine($"An error occurred while process the input string({ex.Message}). Please try again.");
                 return string.Empty;
             }
-            return sb.ToString();
+            return NewString;
         }
         public static bool CheckIfTwoStringsAreAnagrams(string str1, string str2)
         {
