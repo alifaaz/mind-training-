@@ -8,7 +8,7 @@ namespace StringsTrains_MostafaOmar
         {
             //Exercise 1  :
             int count = Solution.NumberOfCharacterInString("HI");
-            Console.WriteLine($"number of characters in : '{count}'");
+            Console.WriteLine($"number of characters in \"HI\" : '{count}'");
 
             //Exercise 2  :
             string input = "hello";
@@ -21,7 +21,7 @@ namespace StringsTrains_MostafaOmar
             //Exercise 4  :
             input = "welcome";
             string prefix = "wel";
-            Console.WriteLine($"Input: '{input}', Prefix: '{prefix}' -> Output: {Solution.IsStartWithGivenPrefix(input,prefix)}");
+            Console.WriteLine($"Input: '{input}', Prefix: '{prefix}' -> Output: {Solution.IsStartWithGivenPrefix(input, prefix)}");
 
             //Exercise 5 :
             input = "file.txt";
@@ -31,11 +31,11 @@ namespace StringsTrains_MostafaOmar
             //Exercise 6 :
             input = "123456";
             Console.WriteLine($"Input: '{input}' -> Output: {Solution.IsStringOnlyDigits(input)}");
-            
+
             //Exercise 7  :
             input = "abcdefg";
             Console.WriteLine($"Input: '{input}' -> Output: {Solution.IsStringOnlyLetters(input)}");
-            
+
             //Exercise 8  :
             Console.WriteLine($"Input: '{input}' -> Output: {Solution.CapitalizeTheFirstCharacterOfString(input)}");
 
@@ -56,7 +56,7 @@ namespace StringsTrains_MostafaOmar
             input = "a b c";
             Console.WriteLine($"input: '{input}' output: '{Solution.NumberOfSpaces(input)}'");
             //Exercise 14  :
-            input = "user@example.com";
+            input = "user@gmail.com";
             Console.WriteLine($"input: '{input}' output: '{Solution.CheckIfStringIsAnEmail(input)}'");
             //Exercise 15  :
             input = "abcdefg";
@@ -107,7 +107,7 @@ namespace StringsTrains_MostafaOmar
             //Exercise 27  :
             input = "banana";
             char TargetLetter = 'a';
-            Console.WriteLine($"input: '{input}' , '{TargetLetter}' output: '{Solution.CountCharacterAppearingInString(input , TargetLetter)}'");
+            Console.WriteLine($"input: '{input}' , '{TargetLetter}' output: '{Solution.CountCharacterAppearingInString(input, TargetLetter)}'");
             //Exercise 28  :
             input = "@hello";
             Console.WriteLine($"input: '{input}' , '{TargetLetter}' output: '{Solution.ContainsSpecialCharacters(input)}'");
@@ -163,7 +163,7 @@ namespace StringsTrains_MostafaOmar
             //Exercise 46  :
             string input1 = "Hello!";
             string input2 = "Hello";
-            Console.WriteLine($"input: '{input1}' vs '{input2}' output: '{Solution.CompareIgnoringPunctuation(input1,input2)}'");
+            Console.WriteLine($"input: '{input1}' vs '{input2}' output: '{Solution.CompareIgnoringPunctuation(input1, input2)}'");
             //Exercise 47  :
             input = "World Health Organization";
             Console.WriteLine($"input: '{input}' output: '{Solution.GenerateAcronymFromPhrase(input)}'");
@@ -191,7 +191,44 @@ namespace StringsTrains_MostafaOmar
             // Exercise 55  :
             input = "Hi There";
             Console.WriteLine($"input: '{input}' output: '{Solution.NumberOfUppercaseCharacters(input)}'");
-           
+            // Exercise 56  :
+            input = "3 cats";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ReplaceNumberWithWords(input)}'");
+            // Exercise 57  :
+            input = "madam racecar hello";
+            Console.WriteLine($"input: '{input}' output: '{Solution.FindPalindromicWordsInParagraph(input)}'");
+            // Exercise 58  :
+            input = "\tTab";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ReplaceTabsWith4Spaces(input)}'");
+            // Exercise 60  :
+            input = "https://openai.com";
+            Console.WriteLine($"input: '{input}' output: '{Solution.IsUrlValid(input)}'");
+            // Exercise 61  :
+            input = "<p>Hello</p>";
+            Console.WriteLine($"input: '{input}' output: '{Solution.RemoveHtmlTagsFromString(input)}'");
+            // Exercise 62  :
+            input = "**Bold**";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ConvertMarkdownToPlainText(input)}'");
+            // Exercise 65  :
+            input = "مرحبا ol";
+            Console.WriteLine($"input: '{input}' output: '{Solution.RemoveNonEnglishCharacter(input)}'");
+            // Exercise 66  :
+            input = "https://youtu.be/abc123";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ExtractYoutubeVideoIdFromUrl(input)}'");
+            // Exercise 67  : 
+            input = "Hello. How are you?";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ShortenTextToASummary(input)}'");
+            // Exercise 71  : 
+            input = "He said \"hello\"";
+            Console.WriteLine($"input: '{input}' output: '{Solution.ExtractQuotedTextFromParagraph(input)}'");
+            //Exercise 76  :
+            input = "user@gmail.com";
+            Console.WriteLine($"input: '{input}' output: '{Solution.IdentifyEmailProviderFromEmail(input)}'");
+            //Exercise 79  :
+            input = "3, 4, and 5";
+            Console.WriteLine($"input: '{input}' output: '{Solution.SumOfNumbersInString(input)}'");
+
+
         }
     }
 }
