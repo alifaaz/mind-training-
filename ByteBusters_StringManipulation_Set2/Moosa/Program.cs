@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace StringsTrainings
 {
@@ -118,6 +118,65 @@ namespace StringsTrainings
             //calling TrimOnly10char method and print the result
             Console.WriteLine(Solutions.TrimOnly10char("abcdefghijklmn"));
 
+            //calling ExtractPhoneNumber method and print the result
+            Console.WriteLine(Solutions.ExtractPhoneNumber("Call me at 0791234567"));
+
+            //calling ChangePhoneNumberFormat method and print the result
+            Console.WriteLine(Solutions.ChangePhoneNumberFormat("+9647912345678"));
+
+            //calling CompareIgnoringPunctuation method and print the result
+            Console.WriteLine(Solutions.CompareIgnoringPunctuation("Hello","Hello!"));
+
+            //calling GenerateAcronym method and print the result
+            Console.WriteLine(Solutions.GenerateAcronym("World Health Organization"));
+
+            //calling RemoveHashtags method and print the result
+            Console.WriteLine(Solutions.RemoveHashtags("great day #fun #sun"));
+
+            //calling ExtractMentions method and print the result
+            Console.WriteLine(Solutions.ExtractMentions("@user1 hello @user2"));
+
+            //calling CountNumberHashtags method and print the result
+            Console.WriteLine(Solutions.CountNumberHashtags("#love #life"));
+
+            //calling InsertNewline method and print the result
+            Console.WriteLine(Solutions.InsertNewline("Hi. How are you?"));
+
+            //calling ReverseWordOrder method and print the result
+            Console.WriteLine(Solutions.ReverseWordOrder("I am fine"));
+
+            //calling SortWords method and print the result
+            Console.WriteLine(Solutions.SortWords("ban apl"));
+
+            //calling GenerateSlug method and print the result
+            Console.WriteLine(Solutions.GenerateSlug("My Title"));
+
+            //calling IsUpperCase method and print the result
+            Console.WriteLine(Solutions.CountUpperCase("Hi There"));
+
+            //calling ReplaceNumbersWithWords method and print the result
+            Console.WriteLine(Solutions.ReplaceNumbersWithWords("3 cats"));
+
+            //calling PalindromicWords method and print the result
+            Console.WriteLine(Solutions.PalindromicWords("madam racecar hello"));
+
+            //calling ReplaceTabs method and print the result
+            Console.WriteLine(Solutions.ReplaceTabs("\tTab"));
+
+            //calling RemoveNonEnglishCharacters method and print the result
+            Console.WriteLine(Solutions.RemoveNonEnglishCharacters("مرحباA"));
+
+            //calling SumExtractNumbers method and print the result
+            Console.WriteLine(Solutions.SumExtractNumbers("6abc123"));
+
+            //calling CaeserCipher method and print the result
+            Console.WriteLine(Solutions.CaeserCipher("abcx"));
+
+            //calling DecryptCaeserCipher method and print the result
+            Console.WriteLine(Solutions.DecryptCaeserCipher("defa"));
+
+            //calling EmailProvider method and print the result
+            Console.WriteLine(Solutions.EmailProvider("user@gmail.com"));
         }
     }
 }
