@@ -1,11 +1,14 @@
 ﻿using System.Text.RegularExpressions;
+
 namespace StringManipulation_2ndSet_Zahra
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.InputEncoding = System.Text.Encoding.UTF8;
+
 
             while (true)
             {
@@ -17,8 +20,10 @@ namespace StringManipulation_2ndSet_Zahra
                     Console.WriteLine("Bruh, you need to write something...");
                     return;
                 }
-                var digits = StringFunctions.IdentifyVerbs(UserString);
-                Console.WriteLine($"--> [\'{string.Join("\',\'", digits)}\']\n");
+                var sols = StringFunctions.RemoveHtmlTags(UserString);
+                Console.WriteLine(sols + "\n");
+                // string.Join means joining the elements of the array with a separator
+                //Console.WriteLine($"--> [\'{string.Join("\',\'", sols)}\']\n");
 
                 //Console.WriteLine($"{StringFunctions.FormatPhoneNumber(UserString)}\n");
 
