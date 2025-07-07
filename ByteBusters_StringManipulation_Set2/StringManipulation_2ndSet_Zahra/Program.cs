@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
 namespace StringManipulation_2ndSet_Zahra
 {
@@ -20,8 +20,8 @@ namespace StringManipulation_2ndSet_Zahra
                     Console.WriteLine("Bruh, you need to write something...");
                     return;
                 }
-                var sols = StringFunctions.RemoveHtmlTags(UserString);
-                Console.WriteLine(sols + "\n");
+                var result = StringFunctions.TranslateToArabic(UserString);
+                Console.WriteLine(result + "\n");
                 // string.Join means joining the elements of the array with a separator
                 //Console.WriteLine($"--> [\'{string.Join("\',\'", sols)}\']\n");
 
