@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -817,7 +817,7 @@ namespace StringManipulation_2ndSet_Zahra
             }
         }
         /*English: Redact names from a document.
-        Example (English): Input: 'Ali went to school.' -> Output: '[REDACTED] went to school.' without RegEx*/
+        Example (English): Input: 'Ali went to school.' -> Output: '[REDACTED] went to school.'*/
         public static string RedactNames(string document)
         {
             try
@@ -840,7 +840,7 @@ namespace StringManipulation_2ndSet_Zahra
         }
 
         /*English: Detect language of a sentence.
-        Example (English): Input: 'Hello, كيف حالك؟' -> Output: 'Arabic' using Ascii code */
+        Example (English): Input: 'Hello, كيف حالك؟' -> Output: 'Arabic' (I'll use Unicode for this)*/
         public static string DetectLanguage(string sentence)
         {
             try
@@ -1191,7 +1191,7 @@ namespace StringManipulation_2ndSet_Zahra
             }
         }
         /*English: Convert markdown to plain text.
-        Example (English): Input: '**Bold**' -> Output: 'Bold' use replace only*/
+        Example (English): Input: '**Bold**' -> Output: 'Bold'*/
         public static string ConvertMarkdownToPlainText(string markdown)
         {
             try
@@ -1207,6 +1207,43 @@ namespace StringManipulation_2ndSet_Zahra
             catch (Exception ex)
             {
                 throw new Exception("ConvertMarkdownToPlainText expects a non-null markdown string. " + ex.Message);
+            }
+        }
+
+        /*English: Translate string from English to Arabic.
+        Example (English): Input: 'Hello' -> Output: 'مرحبا'*/
+        public static string TranslateToArabic(string english)
+        {
+            try
+            {
+                if (english == null)
+                    throw new ArgumentNullException(nameof(english));
+                // This is a simple example, in real life you would use a translation API
+                Dictionary<string, string> translations = new Dictionary<string, string>
+                {
+                    { "Hello", "هلا" },
+                    { "World", "دنيا" },
+                    { "Goodbye", "بيباي" },
+                    { "Thank", "مشكور" },
+                    { "You", "انت" },
+                    { "Please", "فدوة" },
+                    { "Yes", "اي" },
+                    { "No", "لا" },
+                    { "How are you?", "شلونك؟" },
+                    { "Good morning", "صباح الفل" },
+                    { "Good night", "نوم العوافي" }
+                    // NLP is needed again :') 
+                };
+                // Check if the word exists in the dictionary
+                if (translations.ContainsKey(english))
+                {
+                    return translations[english];
+                }
+                return "Translation not found";
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("TranslateToArabic expects a non-null English string. " + ex.Message);
             }
         }
 
