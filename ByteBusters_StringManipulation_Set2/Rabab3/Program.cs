@@ -396,6 +396,123 @@ English: Mask an email address
        return "not index";
    }
 }
+/*
+Exercise 22  :
+English: Convert a sentence into a list of ASCII codes.
+*/
+    static string ConvertToASCII(string str){
+
+      string ASCII="";
+        for(int i=0;i<str.Length;i++)
+         {
+           ASCII += $"[{(int)str[i]}] ";
+          
+         } return ASCII;
+}/*
+Exercise 24  :
+English: Extract the file extension from a filename.
+*/
+  static string Extension(string str){
+      try{
+      int atindex=str.IndexOf('.');
+      if(atindex==-1){
+          throw new IndexOutOfRangeException();
+      }
+      string extension="";
+      extension=str.Substring(atindex +1);
+      return extension;  
+      }
+      catch(IndexOutOfRangeException){
+          return"not index";
+      }
+  }
+  /*
+Exercise 25  :
+English: Replace newlines with spaces in a string.
+  */
+  static string ReplaceNewlines(string str){
+      try{
+      int atindex=str.IndexOf("\n");
+      if(atindex==-1){
+          throw new IndexOutOfRangeException();
+      }
+      string wordsend="";
+      string words1="";
+      string nstr="";
+      extension=str.Substring(atindex +1);//يحفظ الكلمات القبل السطر
+      extension2=str.Substring(0,atindex);//يحفظ الكلمات بعد السطر
+      nstr=extenswords1ion2 + " " +wordsend;//يدمج الكلمات في جملة واحدة ويضع مسافة بينهن
+      return nstr;  
+      }
+      catch(IndexOutOfRangeException){
+          return"not index";
+      }
+  }
+  /*
+  Exercise 26  :
+English: Convert a string date from 'YYYY-MM-DD' to 'DD/MM/YYYY'.
+  */
+static string ConvertDate(string date){
+        DateTime newdate = DateTime.Parse(date);//convert string to date
+        return newdate.ToString("dd/MM/yyyy"); 
+    }
+    /*
+Exercise 27  :
+English: Find how many times a specific character appears in a string.
+    */
+    static int CounterSpecificCharacter(string str , char c){
+        int Counter=0;
+        for(int i=0;i<str.Length;i++){
+            if(str[i]==c||char.ToLower(str[i])==c){
+                Counter++;
+            }
+        }return Counter;
+    }
+    /*
+    Exercise 28  :
+English: Check if a string contains any special characters.
+    */
+    static bool CheckSpecificCharacter(string str){
+        char[] symbols={'!','@','#','$','%','^','&','*','_','-','+','='};
+        bool iscontains=false;
+            foreach(char c in symbols){
+                if(str.Contains(c)){//يتحقق اذا يوجد رمز خاص
+                iscontains= true;
+            }
+        }return iscontains;
+}
+/*
+Exercise 29  :
+English: Convert snake_case to camelCase.
+*/
+ static string ConvertSnake_case(string str)
+  { 
+	 string camelCase="";
+      for(int i=0;i<str.Length;i++)
+      {
+          if(str[i]=='_')
+          {
+               continue;
+          }camelCase+=str[i];
+      }
+      return camelCase;
+  }
+/*
+Exercise 30  :
+English: Convert camelCase to snake_case.
+*/
+ static string ConvertcamelCase(string str,int index)
+  {
+     StringBuilder snakecase= new StringBuilder(str);
+      for(int i=0;i<str.Length;i++)
+      {
+          if(i==index)
+          {
+			  snakecase.Insert(index,'_');
+          }
+      }
+      return snakecase.ToString();
+  }
 static void Main(string[] args)
     {  
 string str1="lisien";
@@ -407,6 +524,7 @@ Console.Write(FirstCharacters(input));//Exercise 15
 Console.Write(Last3Characters(input));//Exercise 16
 string[] words={"rabab","zahraa"};
 Console.Write(WordsToString(words));
+ Console.Write(ASCII("abc"));//Exercise 22
 Console.WriteLine(CountsHowManyWord("Hello World Hello","hello"));
 Console.WriteLine(ReverseString("Hello World Hello"));
 Console.WriteLine(ReplaceSpaces("Hello World Hello"));
@@ -422,5 +540,12 @@ Console.WriteLine(Count("Hello World Hello"));
 Console.Write(CheckEmail("rabab@gmail.com"));
 Console.Write(MaskEmail("rabab@gmail.com"));
 Console.WriteLine(ReplaceCommas("Hello,World,Hello"));//Exercise 17
+Console.WriteLine(Extension("rabab.word"));//Exercise 24
+Console.WriteLine(ReplaceNewlines("hello\nworld")); 
+Console.WriteLine(ConvertDate("2022-03-02"));// Exercise 26
+ Console.WriteLine(CounterSpecificCharacter("banana",'a')); 
+ Console.WriteLine(CheckSpecificCharacter("bana$na")); 
+Console.WriteLine(ConvertSnake_case("My_name"));
+Console.WriteLine(ConvertcamelCase("Myname",2));
     }
 }
