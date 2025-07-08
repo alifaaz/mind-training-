@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|d:\\csharp\\halal almshakl\\stringstrains\u2013mostafaomar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|d:\\csharp\\halal almshakl\\stringstrains\u2013mostafaomar\\solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|solutionrelative:solution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|d:\\csharp\\halal almshakl\\stringstrains\u2013mostafaomar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694F9173-9D20-429A-B6E7-7708A6B456DD}|StringsTrains\u2013MostafaOmar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,38 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 175,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Solution.cs",
-              "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Solution.cs",
-              "RelativeDocumentMoniker": "Solution.cs",
-              "ToolTip": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Solution.cs",
-              "RelativeToolTip": "Solution.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T16:03:23.291Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 175,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAywFsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T11:50:24.768Z",
+              "WhenOpened": "2025-07-07T16:41:47.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Solution.cs",
+              "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Solution.cs",
+              "RelativeDocumentMoniker": "Solution.cs",
+              "ToolTip": "D:\\CSharp\\Halal almshakl\\StringsTrains\u2013MostafaOmar\\Solution.cs",
+              "RelativeToolTip": "Solution.cs",
+              "ViewState": "AgIAAGYCAAAAAAAAAAAIwHcCAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:03:23.291Z",
               "EditorCaption": ""
             }
           ]

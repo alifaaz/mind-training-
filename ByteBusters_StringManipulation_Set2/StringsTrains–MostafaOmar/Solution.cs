@@ -1400,25 +1400,25 @@ namespace StringsTrains_MostafaOmar
             {
                 if (char.IsDigit(character))
                 {
-                    CurrentNumber += character; 
+                    CurrentNumber += character;
                 }
-                else
+                else 
                 {
                     if (CurrentNumber != "")
                     {
-                        SumOfNumbers += int.Parse(CurrentNumber);  
-                        CurrentNumber = "";  
+                        SumOfNumbers += int.Parse(CurrentNumber);
+                        // افرغ الكرنت نمبر حتى استعمله من جديد اذا اكو رقم
+                        CurrentNumber = "";
                     }
                 }
             }
+            // اذا جان اخر كاركتر رقم نسوي هاي لأن ما اجة وراه حرف حتى نطب بالايلس
             if (CurrentNumber != "")
             {
                 SumOfNumbers += int.Parse(CurrentNumber);
             }
             return SumOfNumbers;
+
         }
-
-
     }
-
 }

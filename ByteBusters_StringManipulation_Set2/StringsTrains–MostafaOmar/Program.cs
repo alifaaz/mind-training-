@@ -225,7 +225,7 @@ namespace StringsTrains_MostafaOmar
             input = "user@gmail.com";
             Console.WriteLine($"input: '{input}' output: '{Solution.IdentifyEmailProviderFromEmail(input)}'");
             //Exercise 79  :
-            input = "3, 4, and 5";
+            input = "abc 4 and 25";
             Console.WriteLine($"input: '{input}' output: '{Solution.SumOfNumbersInString(input)}'");
 
 

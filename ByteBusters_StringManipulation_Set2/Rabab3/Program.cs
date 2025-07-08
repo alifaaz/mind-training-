@@ -513,8 +513,93 @@ English: Convert camelCase to snake_case.
       }
       return snakecase.ToString();
   }
+/*
+Exercise 31  :
+English: Replace all numeric values in a string with #.
+*/
+ static string ReplaceNumeric(string str)
+  {
+     StringBuilder nstr= new StringBuilder(str);
+if(!string.IsNullOrEmpty(str)){ 
+      for(int i=0;i<str.Length;i++)
+      {
+          if(char.IsDigit(str[i]))
+          {
+			  nstr[i] ='#' ;
+          }
+      }
+      return nstr.ToString();
+	 }
+		else{
+			return "Threr is no string";
+		}
+  }
+  /*
+  Exercise 32  :
+  English: Count how many words are capitalized.
+  */
+   static int Countcapitalizedwords(string str)
+  {
+	 string[] words=str.Split(' ');
+	 int count=0;
+	 foreach(string w in words){
+			  if(char.IsUpper(w[0])){
+			 count++;
+		  }
+	 }
+		 return count;
+  } 
+/*
+Exercise 33  :
+English: Remove all vowels from a string.
+*/
+static string RemoveOfVowels(string str)
+  { 
+    char[] vowels={'A','E','I','O','U'};
+	string nstr="";
+     for(int i=0;i<str.Length;i++)
+      {
+          if(vowels.Contains(str[i])||vowels.Contains(char.ToUpper(str[i]) ))
+          {
+              continue;
+          }nstr+=str[i];
+      }
+      return nstr;
+  }
+/*
+Exercise 34  :
+English: Check if a string contains only whitespace.
+*/
+static string CheckOnlyWhitespace(string str)
+  { 
+	int count=0;
+     for(int i=0;i<str.Length;i++)
+      {
+          if(str[i]==' ')
+          {
+            count++;//يحسب الفراغات
+          }
+      }
+	if(count==str.Length){//اذا عدد الفراغات يساوي طول الكلمة اذن تحتوي فقط فراغات
+		return "true";
+	}
+	else{
+      return "false";
+	}
+  }
+  /*Exercise 35  :
+English: Replace emojis with [EMOJI] tag.
+  */
+  static string ReplaceEmojis(string str)
+  { 
+	string nstr="";
+	int atindex=str.IndexOf("😊");
+	nstr=str.Substring(0,atindex)+"[EMOJI]";
+	return nstr;
+  }
+
 static void Main(string[] args)
-    {  
+{  
 string str1="lisien";
 string str2="sileni";
 Console.WriteLine (Anagrams(str1,str2));//Exercise 18
@@ -547,5 +632,10 @@ Console.WriteLine(ConvertDate("2022-03-02"));// Exercise 26
  Console.WriteLine(CheckSpecificCharacter("bana$na")); 
 Console.WriteLine(ConvertSnake_case("My_name"));
 Console.WriteLine(ConvertcamelCase("Myname",2));
+Console.WriteLine(ReplaceNumeric("My2name4"));
+Console.WriteLine(Countcapitalizedwords("Hello World"));
+Console.WriteLine(RemoveOfVowels("education"));
+Console.WriteLine(CheckOnlyWhitespace("  "));
+Console.WriteLine(ReplaceEmojis("Hello 😊"));
     }
 }
