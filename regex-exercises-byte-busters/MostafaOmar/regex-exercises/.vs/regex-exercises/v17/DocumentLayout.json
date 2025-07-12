@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|d:\\csharp\\halal almshakl\\regex\\mostafa-omar-regex-exercises\\regex-exercises\\regex-functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|solutionrelative:regex-functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|d:\\csharp\\halal almshakl\\regex\\mostafa-omar-regex-exercises\\regex-exercises\\validateinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|solutionrelative:validateinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|d:\\csharp\\halal almshakl\\regex\\mostafa-omar-regex-exercises\\regex-exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949026AF-6D1D-4A39-8113-015E355AEC8C}|regex-exercises.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateInput.cs",
+              "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\ValidateInput.cs",
+              "RelativeDocumentMoniker": "ValidateInput.cs",
+              "ToolTip": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\ValidateInput.cs",
+              "RelativeToolTip": "ValidateInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:44:12.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Regex-Functions.cs",
+              "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\Regex-Functions.cs",
+              "RelativeDocumentMoniker": "Regex-Functions.cs",
+              "ToolTip": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\Regex-Functions.cs",
+              "RelativeToolTip": "Regex-Functions.cs",
+              "ViewState": "AgIAAF0DAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T16:32:01.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 128,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CSharp\\Halal almshakl\\Regex\\mostafa-omar-regex-exercises\\regex-exercises\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAywAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:39:45.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

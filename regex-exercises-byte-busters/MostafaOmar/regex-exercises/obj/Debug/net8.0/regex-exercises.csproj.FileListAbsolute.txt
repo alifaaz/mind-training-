@@ -1,0 +1,14 @@
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\bin\Debug\net8.0\regex-exercises.exe
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\bin\Debug\net8.0\regex-exercises.deps.json
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\bin\Debug\net8.0\regex-exercises.runtimeconfig.json
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\bin\Debug\net8.0\regex-exercises.dll
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\bin\Debug\net8.0\regex-exercises.pdb
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.AssemblyInfoInputs.cache
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.AssemblyInfo.cs
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.csproj.CoreCompileInputs.cache
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.dll
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\refint\regex-exercises.dll
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.pdb
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\regex-exercises.genruntimeconfig.cache
+D:\CSharp\Halal almshakl\regex-exercises-byte-busters\mostafa-omar-regex-exercises\regex-exercises\obj\Debug\net8.0\ref\regex-exercises.dll
