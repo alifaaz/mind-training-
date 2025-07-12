@@ -1,0 +1,15 @@
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\bin\Debug\net8.0\Aween-Regex.exe
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\bin\Debug\net8.0\Aween-Regex.deps.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\bin\Debug\net8.0\Aween-Regex.runtimeconfig.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\bin\Debug\net8.0\Aween-Regex.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\bin\Debug\net8.0\Aween-Regex.pdb
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.AssemblyInfoInputs.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.AssemblyInfo.cs
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.csproj.CoreCompileInputs.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.sourcelink.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\refint\Aween-Regex.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.pdb
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\Aween-Regex.genruntimeconfig.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Regex\Aween-Regex\obj\Debug\net8.0\ref\Aween-Regex.dll
