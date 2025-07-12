@@ -1,0 +1,14 @@
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\bin\Debug\net8.0\Zahraa_RegEx.exe
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\bin\Debug\net8.0\Zahraa_RegEx.deps.json
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\bin\Debug\net8.0\Zahraa_RegEx.runtimeconfig.json
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\bin\Debug\net8.0\Zahraa_RegEx.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\bin\Debug\net8.0\Zahraa_RegEx.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.GeneratedMSBuildEditorConfig.editorconfig
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.AssemblyInfoInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.AssemblyInfo.cs
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.csproj.CoreCompileInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\refint\Zahraa_RegEx.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\Zahraa_RegEx.genruntimeconfig.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_RegEx\obj\Debug\net8.0\ref\Zahraa_RegEx.dll
