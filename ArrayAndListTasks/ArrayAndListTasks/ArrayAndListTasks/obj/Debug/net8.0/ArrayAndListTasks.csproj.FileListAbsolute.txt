@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\bin\Debug\net8.0\ArrayAndListTasks.exe
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\bin\Debug\net8.0\ArrayAndListTasks.deps.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\bin\Debug\net8.0\ArrayAndListTasks.runtimeconfig.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\bin\Debug\net8.0\ArrayAndListTasks.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\bin\Debug\net8.0\ArrayAndListTasks.pdb
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.AssemblyInfo.cs
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.sourcelink.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\refint\ArrayAndListTasks.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.pdb
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ArrayAndListTasks.genruntimeconfig.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\ArrayAndListTasks\ArrayAndListTasks\obj\Debug\net8.0\ref\ArrayAndListTasks.dll
