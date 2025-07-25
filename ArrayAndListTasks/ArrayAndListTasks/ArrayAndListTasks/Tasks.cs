@@ -370,6 +370,24 @@ namespace ArrayAndListTasks
             }
             return sum;
         }
+        //------------------------------ Exercise 20 ----------------------------------------------------//
+        //    حوّل سلسلة مفصولة بفواصل إلى قائمة.
+        public List<string> CommaSeparatedList(string str)
+        {
+            List<string> result = new List<string>() { };
+            try
+            {
+                if (!string.IsNullOrEmpty(str))
+                    foreach (var item in str.Split(','))
+                        result.Add(item);
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
     }
 }
 

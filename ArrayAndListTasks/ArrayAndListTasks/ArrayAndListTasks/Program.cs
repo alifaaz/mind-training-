@@ -111,4 +111,11 @@ Tasks task = new Tasks();
 //task.FirstAndLastElement(new List<int>() { 1, 3, 4, 5 }, out max, out min);
 //Console.WriteLine("Max element = {0} and Min Element {1}", max, min);
 
-Console.WriteLine("Sum of element = \t" + task.SumAllElements(new List<int>() { 1, 3, 4, 5 }));
+//Console.WriteLine("Sum of element = \t" + task.SumAllElements(new List<int>() { 1, 3, 4, 5 }));
+
+List<string> numbers = new List<string>() {  };
+numbers = task.CommaSeparatedList("3, 8, 14, 75, 3, 11");
+foreach (string number in numbers)
+{
+    Console.Write(number + ", ");
+}
