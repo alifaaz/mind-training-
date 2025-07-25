@@ -85,8 +85,15 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-List<int> numbers = new List<int>() { 2, 8, 14, 75 };
-numbers = task.InsertByIndex(numbers, 99, 2);
+//List<int> numbers = new List<int>() { 2, 8, 14, 75 };
+//numbers = task.InsertByIndex(numbers, 99, 2);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
+List<int> numbers = new List<int>() { 2, 8, 14, 75, 3, 11 };
+numbers = task.FilterOutEvenEumbers(numbers);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");

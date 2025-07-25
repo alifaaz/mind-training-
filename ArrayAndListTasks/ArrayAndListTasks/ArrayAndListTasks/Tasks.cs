@@ -279,9 +279,29 @@ namespace ArrayAndListTasks
                             result.Add(element);
                             result.Add(numbers[i]);
                         }
-
                         else
                             result.Add(numbers[i]);
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
+        //------------------------------ Exercise 16 ----------------------------------------------------//
+        //     احذف الأعداد الزوجية من القائمة.
+        public List<int> FilterOutEvenEumbers(List<int> numbers)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {
+                if (numbers.Count > 0)
+                    foreach (var item in numbers)
+                    {
+                        if (item % 2 != 0)
+                            result.Add(item);                            
+                    }
                 return result;
             }
             catch (Exception e)
