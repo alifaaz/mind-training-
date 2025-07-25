@@ -249,6 +249,22 @@ namespace ArrayAndListTasks
             }
             return result;
         }
+        //------------------------------ Exercise 14 ----------------------------------------------------//
+        //  انسخ القائمة إلى متغير جديد.
+        public List<int> CopyList(List<int> numbers)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {
+                if (numbers.Count > 0)
+                   return result = numbers;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
     }
 }
 

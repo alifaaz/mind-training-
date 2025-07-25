@@ -70,9 +70,17 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
+//List<int> numbers = new List<int>() { 2, 8, 14, 75 };
+//numbers = task.ClearAll(numbers);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
 List<int> numbers = new List<int>() { 2, 8, 14, 75 };
-numbers = task.ClearAll(numbers);
-foreach (int number in numbers)
+List<int> numbers1 = new List<int>();
+numbers1 = task.CopyList(numbers);
+foreach (int number in numbers1)
 {
     Console.Write(number + ", ");
 }
