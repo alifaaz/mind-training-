@@ -20,8 +20,15 @@ Tasks task = new Tasks();
 //task.FirstAndLastElement(new List<int>() { 1, 3, 4, 5 }, out  first, out  last);
 //Console.WriteLine("First element = {0} and Last Element {1}", first, last);
 
+//List<int> numbers = new List<int>() { 1, 3, 4, 5 };
+//numbers = task.AppendItemToList(numbers, 55);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
 List<int> numbers = new List<int>() { 1, 3, 4, 5 };
-numbers = task.AppendItemToList(numbers, 55);
+numbers = task.RemoveItemToList(numbers, 5);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");

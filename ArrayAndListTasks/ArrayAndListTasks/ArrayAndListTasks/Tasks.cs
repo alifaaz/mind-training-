@@ -89,6 +89,20 @@ namespace ArrayAndListTasks
             }
             return numbers;
         }
+        //------------------------------ Exercise 5 ----------------------------------------------------//
+        //  أزل عنصرًا من القائمة باستخدام قيمته.
+        public List<int> RemoveItemToList(List<int> numbers, int element)
+        {
+            try
+            {
+                numbers.Remove(element);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return numbers;
+        }
 
     }
 }
