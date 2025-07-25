@@ -48,4 +48,6 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-Console.WriteLine("is found = \t" + task.isExists(new List<int>() { 1, 3, 4, 5 }, 41));
+//Console.WriteLine("is found = \t" + task.isExists(new List<int>() { 1, 3, 4, 5 }, 41));
+
+Console.WriteLine("count 4 in list = \t" + task.CountElement(new List<int>() { 1, 3, 4, 5, 4 }, 11));

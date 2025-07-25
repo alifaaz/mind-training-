@@ -145,6 +145,24 @@ namespace ArrayAndListTasks
             }
             return false;
         }
+        //------------------------------ Exercise 9 ----------------------------------------------------//
+        //    عدّ عدد مرات ظهور قيمة معينة في القائمة.
+        public int CountElement(List<int> numbers, int element)
+        {
+            int count = 0;
+            try
+            {                
+                foreach (var item in numbers)
+                {
+                    if (item == element) count++;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return count;
+        }
     }
 }
 

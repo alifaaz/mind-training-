@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayAndListTasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f9a9d405980e6c7c23ea01c854b32e2a0af11e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bcca7cf64e95780b9b466badeffb0c7b92362ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayAndListTasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayAndListTasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
