@@ -57,16 +57,38 @@ namespace ArrayAndListTasks
             lastElement = 0;
             try
             {
-                firstElement = numbers[0];
-                // استخدمت داله التاسك اللي قبلها حتى ارجع طول ال List
-                lastElement = numbers[LengthOfList(numbers) - 1];
+                if(numbers.Count >= 2)
+                {
+                    firstElement = numbers[0];
+                    // استخدمت داله التاسك اللي قبلها حتى ارجع طول ال List
+                    lastElement = numbers[LengthOfList(numbers) - 1];
+                }
+                else
+                {
+                    firstElement = 0;
+                    lastElement = 0;
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
         }
+        //------------------------------ Exercise 4 ----------------------------------------------------//
+        //  أضف عنصرًا إلى نهاية القائمة.
+        public List<int> AppendItemToList(List<int> numbers, int element)
+        {
 
+            try
+            {
+                numbers.Add(element);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return numbers;
+        }
 
     }
 }
