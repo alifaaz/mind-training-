@@ -103,6 +103,20 @@ namespace ArrayAndListTasks
             }
             return numbers;
         }
+        //------------------------------ Exercise 6 ----------------------------------------------------//
+        //  رتّب قائمة الأرقام تصاعديًا.
+        public List<int> SortList(List<int> numbers)
+        {
+            try
+            {
+                numbers.Sort();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return numbers;
+        }
 
     }
 }

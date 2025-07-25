@@ -27,8 +27,15 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-List<int> numbers = new List<int>() { 1, 3, 4, 5 };
-numbers = task.RemoveItemToList(numbers, 5);
+//List<int> numbers = new List<int>() { 1, 3, 4, 5 };
+//numbers = task.RemoveItemToList(numbers, 5);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
+List<int> numbers = new List<int>() { 22, 3, 4, 5 };
+numbers = task.SortList(numbers);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");
