@@ -63,8 +63,15 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
+//List<int> numbers = new List<int>() { 2, 8, 14, 75 };
+//numbers = task.SliceList(numbers, 5);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
 List<int> numbers = new List<int>() { 2, 8, 14, 75 };
-numbers = task.SliceList(numbers, 2);
+numbers = task.ClearAll(numbers);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");

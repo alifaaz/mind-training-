@@ -95,7 +95,12 @@ namespace ArrayAndListTasks
         {
             try
             {
-                numbers.Remove(element);
+                if (numbers.Count > 0)
+                    if(numbers.Contains(element))
+                        numbers.Remove(element);
+                    else
+                        return numbers;
+
             }
             catch (Exception e)
             {
@@ -109,7 +114,8 @@ namespace ArrayAndListTasks
         {
             try
             {
-                numbers.Sort();
+                if (numbers.Count > 0)
+                    numbers.Sort();
             }
             catch (Exception e)
             {
@@ -123,7 +129,8 @@ namespace ArrayAndListTasks
         {
             try
             {
-                numbers.Reverse();
+                if (numbers.Count > 0)
+                    numbers.Reverse();
             }
             catch (Exception e)
             {
@@ -132,12 +139,13 @@ namespace ArrayAndListTasks
             return numbers;
         }
         //------------------------------ Exercise 8 ----------------------------------------------------//
-        //   اعكس ترتيب العناصر في القائمة.
+        //  تحقق مما إذا كانت قيمة موجودة في القائمة.
         public bool isExists(List<int> numbers, int element)
         {
             try
             {
-               return numbers.Contains(element);
+                if (numbers.Count > 0)
+                    return numbers.Contains(element);
             }
             catch (Exception e)
             {
@@ -151,11 +159,12 @@ namespace ArrayAndListTasks
         {
             int count = 0;
             try
-            {                
-                foreach (var item in numbers)
-                {
-                    if (item == element) count++;
-                }
+            {
+                if (numbers.Count > 0)
+                    foreach (var item in numbers)
+                    {
+                        if (item == element) count++;
+                    }
             }
             catch (Exception e)
             {
@@ -170,12 +179,13 @@ namespace ArrayAndListTasks
             int index = -1;
             try
             {
-                foreach (var item in numbers)
-                {
-                    index++;
-                    if (item == element) 
-                        return index;
-                }
+                if (numbers.Count > 0)
+                    foreach (var item in numbers)
+                    {
+                        index++;
+                        if (item == element) 
+                            return index;
+                    }
             }
             catch (Exception e)
             {
@@ -189,7 +199,8 @@ namespace ArrayAndListTasks
         {
             try
             {
-                foreach(var item in numbers2)
+                if (numbers1.Count > 0 || numbers2.Count > 0)
+                    foreach (var item in numbers2)
                 {
                     numbers1.Add(item);
                 }
@@ -202,19 +213,34 @@ namespace ArrayAndListTasks
             return numbers1;
         }
         //------------------------------ Exercise 12 ----------------------------------------------------//
-        //  جزّئ القائمة للحصول على أول 3 عناصر.
+        //  جزّئ القائمة للحصول على أول 3 عناصر. طبعا سويته عام فاي رقم ادخله يطع الك عدد العناصر
         public List<int> SliceList(List<int> numbers, int NoElement)
         {
             List<int> result = new List<int>() { };
             try
             {
-                if(numbers.Count > 0)
+                if(numbers.Count > 0 && NoElement< numbers.Count)
                 {
                     for(int i = 0;i< NoElement; i++)
                     {
                         result.Add(numbers[i]);
                     }
                 }                
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
+        //------------------------------ Exercise 13 ----------------------------------------------------//
+        //  احذف جميع العناصر من القائمة.
+        public List<int> ClearAll(List<int> numbers)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {                
                 return result;
             }
             catch (Exception e)
