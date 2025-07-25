@@ -326,6 +326,30 @@ namespace ArrayAndListTasks
             }
             return result;
         }
+        //------------------------------ Exercise 18 ----------------------------------------------------//
+        //  أوجد أكبر وأصغر قيمة في القائمة.
+        public void MaxAndMin(List<int> numbers, out int maxElement, out int minElement)
+        {
+            maxElement = numbers[0];
+            minElement = numbers[0];
+            try
+            {
+                if (numbers.Count >= 2)
+                {
+                    maxElement = numbers.Max();
+                    minElement = numbers.Min();
+                }
+                else
+                {
+                    maxElement = 0;
+                    minElement = 0;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }
 

@@ -99,9 +99,14 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-List<int> numbers = new List<int>() { 3, 8, 14, 75, 3, 11 };
-numbers = task.RemoveDuplicates(numbers);
-foreach (int number in numbers)
-{
-    Console.Write(number + ", ");
-}
+//List<int> numbers = new List<int>() { 3, 8, 14, 75, 3, 11 };
+//numbers = task.RemoveDuplicates(numbers);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
+int max;
+int min;
+task.FirstAndLastElement(new List<int>() { 1, 3, 4, 5 }, out max, out min);
+Console.WriteLine("Max element = {0} and Min Element {1}", max, min);
