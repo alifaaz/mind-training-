@@ -52,4 +52,12 @@ Tasks task = new Tasks();
 
 //Console.WriteLine("count 4 in list = \t" + task.CountElement(new List<int>() { 1, 3, 4, 5, 4 }, 11));
 
-Console.WriteLine("index 4 in list = \t" + task.IndexOfValue(new List<int>() { 1, 3, 4, 5, 4 }, 3));
+//Console.WriteLine("index 4 in list = \t" + task.IndexOfValue(new List<int>() { 1, 3, 4, 5, 4 }, 3));
+
+List<int> numbers1 = new List<int>() { 22, 3, 4, 5 };
+List<int> numbers2 = new List<int>() { 2, 8, 14, 75 };
+numbers1 = task.ConcatTwoLists(numbers1, numbers2);
+foreach (int number in numbers1)
+{
+    Console.Write(number + ", ");
+}

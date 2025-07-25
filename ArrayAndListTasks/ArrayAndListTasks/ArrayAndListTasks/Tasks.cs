@@ -183,6 +183,24 @@ namespace ArrayAndListTasks
             }
             return -1;
         }
+        //------------------------------ Exercise 11 ----------------------------------------------------//
+        //   ادمج قائمتين معًا.
+        public List<int> ConcatTwoLists(List<int> numbers1, List<int> numbers2)
+        {
+            try
+            {
+                foreach(var item in numbers2)
+                {
+                    numbers1.Add(item);
+                }
+                return numbers1;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return numbers1;
+        }
     }
 }
 
