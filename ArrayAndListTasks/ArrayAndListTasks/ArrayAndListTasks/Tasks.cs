@@ -117,7 +117,20 @@ namespace ArrayAndListTasks
             }
             return numbers;
         }
-
+        //------------------------------ Exercise 7 ----------------------------------------------------//
+        //   اعكس ترتيب العناصر في القائمة.
+        public List<int> ReverseList(List<int> numbers)
+        {
+            try
+            {
+                numbers.Reverse();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return numbers;
+        }
     }
 }
 

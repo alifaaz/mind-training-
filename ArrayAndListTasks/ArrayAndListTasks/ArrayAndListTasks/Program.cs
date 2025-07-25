@@ -34,8 +34,15 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
+//List<int> numbers = new List<int>() { 22, 3, 4, 5 };
+//numbers = task.SortList(numbers);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
 List<int> numbers = new List<int>() { 22, 3, 4, 5 };
-numbers = task.SortList(numbers);
+numbers = task.ReverseList(numbers);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");
