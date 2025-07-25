@@ -92,8 +92,15 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-List<int> numbers = new List<int>() { 2, 8, 14, 75, 3, 11 };
-numbers = task.FilterOutEvenEumbers(numbers);
+//List<int> numbers = new List<int>() { 2, 8, 14, 75, 3, 11 };
+//numbers = task.FilterOutEvenEumbers(numbers);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
+
+List<int> numbers = new List<int>() { 3, 8, 14, 75, 3, 11 };
+numbers = task.RemoveDuplicates(numbers);
 foreach (int number in numbers)
 {
     Console.Write(number + ", ");

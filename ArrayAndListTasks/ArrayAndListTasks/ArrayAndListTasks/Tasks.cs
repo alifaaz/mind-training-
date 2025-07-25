@@ -310,6 +310,22 @@ namespace ArrayAndListTasks
             }
             return result;
         }
+        //------------------------------ Exercise 17 ----------------------------------------------------//
+        //   أزل العناصر المكررة من القائمة.
+        public List<int> RemoveDuplicates(List<int> numbers)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {
+                if (numbers.Count > 0)
+                    return result = numbers.Distinct().ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
     }
 }
 
