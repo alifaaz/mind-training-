@@ -131,6 +131,20 @@ namespace ArrayAndListTasks
             }
             return numbers;
         }
+        //------------------------------ Exercise 8 ----------------------------------------------------//
+        //   اعكس ترتيب العناصر في القائمة.
+        public bool isExists(List<int> numbers, int element)
+        {
+            try
+            {
+               return numbers.Contains(element);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return false;
+        }
     }
 }
 

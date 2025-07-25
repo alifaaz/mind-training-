@@ -41,10 +41,11 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-List<int> numbers = new List<int>() { 22, 3, 4, 5 };
-numbers = task.ReverseList(numbers);
-foreach (int number in numbers)
-{
-    Console.Write(number + ", ");
-}
+//List<int> numbers = new List<int>() { 22, 3, 4, 5 };
+//numbers = task.ReverseList(numbers);
+//foreach (int number in numbers)
+//{
+//    Console.Write(number + ", ");
+//}
 
+Console.WriteLine("is found = \t" + task.isExists(new List<int>() { 1, 3, 4, 5 }, 41));
