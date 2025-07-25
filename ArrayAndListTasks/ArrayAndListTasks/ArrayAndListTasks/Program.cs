@@ -77,10 +77,17 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
+//List<int> numbers = new List<int>() { 2, 8, 14, 75 };
+//List<int> numbers1 = new List<int>();
+//numbers1 = task.CopyList(numbers);
+//foreach (int number in numbers1)
+//{
+//    Console.Write(number + ", ");
+//}
+
 List<int> numbers = new List<int>() { 2, 8, 14, 75 };
-List<int> numbers1 = new List<int>();
-numbers1 = task.CopyList(numbers);
-foreach (int number in numbers1)
+numbers = task.InsertByIndex(numbers, 99, 2);
+foreach (int number in numbers)
 {
     Console.Write(number + ", ");
 }

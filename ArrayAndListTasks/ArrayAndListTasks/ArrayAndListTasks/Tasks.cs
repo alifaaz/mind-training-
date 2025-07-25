@@ -23,11 +23,11 @@ namespace ArrayAndListTasks
                 }
                 return numbers;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
                 return null;
-            }            
+            }
         }
         //------------------------------ Exercise 2 ----------------------------------------------------//
         // أوجد طول القائمة
@@ -37,7 +37,7 @@ namespace ArrayAndListTasks
             {
                 int lenList = 0;
                 // افتر على كل العناصر وازيد العداد بمقدار واحد في كل عنصر
-                foreach(int i in numbers)
+                foreach (int i in numbers)
                 {
                     lenList++;
                 }
@@ -57,7 +57,7 @@ namespace ArrayAndListTasks
             lastElement = 0;
             try
             {
-                if(numbers.Count >= 2)
+                if (numbers.Count >= 2)
                 {
                     firstElement = numbers[0];
                     // استخدمت داله التاسك اللي قبلها حتى ارجع طول ال List
@@ -96,7 +96,7 @@ namespace ArrayAndListTasks
             try
             {
                 if (numbers.Count > 0)
-                    if(numbers.Contains(element))
+                    if (numbers.Contains(element))
                         numbers.Remove(element);
                     else
                         return numbers;
@@ -183,7 +183,7 @@ namespace ArrayAndListTasks
                     foreach (var item in numbers)
                     {
                         index++;
-                        if (item == element) 
+                        if (item == element)
                             return index;
                     }
             }
@@ -201,9 +201,9 @@ namespace ArrayAndListTasks
             {
                 if (numbers1.Count > 0 || numbers2.Count > 0)
                     foreach (var item in numbers2)
-                {
-                    numbers1.Add(item);
-                }
+                    {
+                        numbers1.Add(item);
+                    }
                 return numbers1;
             }
             catch (Exception e)
@@ -219,13 +219,13 @@ namespace ArrayAndListTasks
             List<int> result = new List<int>() { };
             try
             {
-                if(numbers.Count > 0 && NoElement< numbers.Count)
+                if (numbers.Count > 0 && NoElement < numbers.Count)
                 {
-                    for(int i = 0;i< NoElement; i++)
+                    for (int i = 0; i < NoElement; i++)
                     {
                         result.Add(numbers[i]);
                     }
-                }                
+                }
                 return result;
             }
             catch (Exception e)
@@ -240,7 +240,7 @@ namespace ArrayAndListTasks
         {
             List<int> result = new List<int>() { };
             try
-            {                
+            {
                 return result;
             }
             catch (Exception e)
@@ -257,7 +257,32 @@ namespace ArrayAndListTasks
             try
             {
                 if (numbers.Count > 0)
-                   return result = numbers;
+                    return result = numbers;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
+        //------------------------------ Exercise 15 ----------------------------------------------------//
+        //  أدرج قيمة في الموقع الثاني من القائمة. او اي موقع حسب اي عنوان يرسل
+        public List<int> InsertByIndex(List<int> numbers, int element, int index)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {
+                if (numbers.Count > 0 && index < numbers.Count)
+                    for (int i = 0; i < numbers.Count; i++)
+                        if (i == index)
+                        {
+                            result.Add(element);
+                            result.Add(numbers[i]);
+                        }
+
+                        else
+                            result.Add(numbers[i]);
+                return result;
             }
             catch (Exception e)
             {
