@@ -163,6 +163,26 @@ namespace ArrayAndListTasks
             }
             return count;
         }
+        //------------------------------ Exercise 10 ----------------------------------------------------//
+        //     احصل على موقع (فهرس) قيمة معينة في القائمة.
+        public int IndexOfValue(List<int> numbers, int element)
+        {
+            int index = -1;
+            try
+            {
+                foreach (var item in numbers)
+                {
+                    index++;
+                    if (item == element) 
+                        return index;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return -1;
+        }
     }
 }
 
