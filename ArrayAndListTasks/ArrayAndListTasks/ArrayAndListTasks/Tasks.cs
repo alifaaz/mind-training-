@@ -350,6 +350,26 @@ namespace ArrayAndListTasks
                 Console.WriteLine(e.Message);
             }
         }
+        //------------------------------ Exercise 19 ----------------------------------------------------//
+        //   اجمع جميع عناصر القائمة.
+        public int SumAllElements(List<int> numbers)
+        {
+            int sum = 0;
+            try
+            {
+                if (numbers.Count > 0)
+                    foreach (var item in numbers)
+                    {
+                        sum += item;
+                    }
+                return sum;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return sum;
+        }
     }
 }
 

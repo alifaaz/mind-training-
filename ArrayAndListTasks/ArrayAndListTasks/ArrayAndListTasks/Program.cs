@@ -106,7 +106,9 @@ Tasks task = new Tasks();
 //    Console.Write(number + ", ");
 //}
 
-int max;
-int min;
-task.FirstAndLastElement(new List<int>() { 1, 3, 4, 5 }, out max, out min);
-Console.WriteLine("Max element = {0} and Min Element {1}", max, min);
+//int max;
+//int min;
+//task.FirstAndLastElement(new List<int>() { 1, 3, 4, 5 }, out max, out min);
+//Console.WriteLine("Max element = {0} and Min Element {1}", max, min);
+
+Console.WriteLine("Sum of element = \t" + task.SumAllElements(new List<int>() { 1, 3, 4, 5 }));
