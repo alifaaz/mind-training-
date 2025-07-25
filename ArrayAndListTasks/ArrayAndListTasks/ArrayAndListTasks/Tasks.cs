@@ -29,7 +29,46 @@ namespace ArrayAndListTasks
                 return null;
             }            
         }
+        //------------------------------ Exercise 2 ----------------------------------------------------//
+        // أوجد طول القائمة
+        public int LengthOfList(List<int> numbers)
+        {
+            try
+            {
+                int lenList = 0;
+                // افتر على كل العناصر وازيد العداد بمقدار واحد في كل عنصر
+                foreach(int i in numbers)
+                {
+                    lenList++;
+                }
+                return lenList;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
+        }
+        //------------------------------ Exercise 3 ----------------------------------------------------//
+        // الوصول إلى أول وآخر عنصر في القائمة.
+        public void FirstAndLastElement(List<int> numbers, out int firstElement, out int lastElement)
+        {
+            firstElement = 0;
+            lastElement = 0;
+            try
+            {
+                firstElement = numbers[0];
+                // استخدمت داله التاسك اللي قبلها حتى ارجع طول ال List
+                lastElement = numbers[LengthOfList(numbers) - 1];
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
 
 
     }
 }
+
+
