@@ -1,6 +1,7 @@
 ﻿// كل واحد يسوي كلاس بيه شغله وطبعا على فرع باسمه
 using ArrayAndListTasks;
 using System.Collections.Generic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 Tasks task = new Tasks();
 
@@ -54,10 +55,17 @@ Tasks task = new Tasks();
 
 //Console.WriteLine("index 4 in list = \t" + task.IndexOfValue(new List<int>() { 1, 3, 4, 5, 4 }, 3));
 
-List<int> numbers1 = new List<int>() { 22, 3, 4, 5 };
-List<int> numbers2 = new List<int>() { 2, 8, 14, 75 };
-numbers1 = task.ConcatTwoLists(numbers1, numbers2);
-foreach (int number in numbers1)
+//List<int> numbers1 = new List<int>() { 22, 3, 4, 5 };
+//List<int> numbers2 = new List<int>() { 2, 8, 14, 75 };
+//numbers1 = task.ConcatTwoLists(numbers1, numbers2);
+//foreach (int number in numbers1)
+//{
+//    Console.Write(number + ", ");
+//}
+
+List<int> numbers = new List<int>() { 2, 8, 14, 75 };
+numbers = task.SliceList(numbers, 2);
+foreach (int number in numbers)
 {
     Console.Write(number + ", ");
 }

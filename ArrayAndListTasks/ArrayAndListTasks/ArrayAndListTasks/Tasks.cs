@@ -201,6 +201,28 @@ namespace ArrayAndListTasks
             }
             return numbers1;
         }
+        //------------------------------ Exercise 12 ----------------------------------------------------//
+        //  جزّئ القائمة للحصول على أول 3 عناصر.
+        public List<int> SliceList(List<int> numbers, int NoElement)
+        {
+            List<int> result = new List<int>() { };
+            try
+            {
+                if(numbers.Count > 0)
+                {
+                    for(int i = 0;i< NoElement; i++)
+                    {
+                        result.Add(numbers[i]);
+                    }
+                }                
+                return result;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return result;
+        }
     }
 }
 
