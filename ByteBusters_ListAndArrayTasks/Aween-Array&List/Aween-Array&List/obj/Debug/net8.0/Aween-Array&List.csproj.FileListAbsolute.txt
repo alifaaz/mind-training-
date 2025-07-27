@@ -1,0 +1,15 @@
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\bin\Debug\net8.0\Aween-Array&List.exe
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\bin\Debug\net8.0\Aween-Array&List.deps.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\bin\Debug\net8.0\Aween-Array&List.runtimeconfig.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\bin\Debug\net8.0\Aween-Array&List.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\bin\Debug\net8.0\Aween-Array&List.pdb
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.AssemblyInfoInputs.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.AssemblyInfo.cs
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.csproj.CoreCompileInputs.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.sourcelink.json
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\refint\Aween-Array&List.dll
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.pdb
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\Aween-Array&List.genruntimeconfig.cache
+C:\Users\aween\source\C#-bootcamp-2025\Aween-Array&List\Aween-Array&List\obj\Debug\net8.0\ref\Aween-Array&List.dll
