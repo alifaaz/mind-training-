@@ -1,0 +1,14 @@
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\bin\Debug\net8.0\Zahraa_ArrayAndList.exe
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\bin\Debug\net8.0\Zahraa_ArrayAndList.deps.json
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\bin\Debug\net8.0\Zahraa_ArrayAndList.runtimeconfig.json
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\bin\Debug\net8.0\Zahraa_ArrayAndList.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\bin\Debug\net8.0\Zahraa_ArrayAndList.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.GeneratedMSBuildEditorConfig.editorconfig
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.AssemblyInfoInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.AssemblyInfo.cs
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.csproj.CoreCompileInputs.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\refint\Zahraa_ArrayAndList.dll
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.pdb
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\Zahraa_ArrayAndList.genruntimeconfig.cache
+E:\Problems_Solver_Bootcamp\VS_projects\Zahraa_ArrayAndList\obj\Debug\net8.0\ref\Zahraa_ArrayAndList.dll
