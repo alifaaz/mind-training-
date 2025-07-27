@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aween-Array&List")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+498c6f93a740d3f21edf7d3798b8e20b1403932e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0969fc551ca1333da601da97e3316b569c2d3678")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aween-Array&List")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aween-Array&List")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

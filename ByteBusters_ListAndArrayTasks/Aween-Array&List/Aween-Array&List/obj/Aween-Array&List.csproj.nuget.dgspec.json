@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aween\\source\\C#-bootcamp-2025\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj": {}
+    "D:\\CSharp\\Halal almshakl\\mind-training-\\ByteBusters_ListAndArrayTasks\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aween\\source\\C#-bootcamp-2025\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj": {
+    "D:\\CSharp\\Halal almshakl\\mind-training-\\ByteBusters_ListAndArrayTasks\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aween\\source\\C#-bootcamp-2025\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj",
+        "projectUniqueName": "D:\\CSharp\\Halal almshakl\\mind-training-\\ByteBusters_ListAndArrayTasks\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj",
         "projectName": "Aween-Array&List",
-        "projectPath": "C:\\Users\\aween\\source\\C#-bootcamp-2025\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj",
-        "packagesPath": "C:\\Users\\aween\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aween\\source\\C#-bootcamp-2025\\Aween-Array&List\\Aween-Array&List\\obj\\",
+        "projectPath": "D:\\CSharp\\Halal almshakl\\mind-training-\\ByteBusters_ListAndArrayTasks\\Aween-Array&List\\Aween-Array&List\\Aween-Array&List.csproj",
+        "packagesPath": "C:\\Users\\memeo\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Halal almshakl\\mind-training-\\ByteBusters_ListAndArrayTasks\\Aween-Array&List\\Aween-Array&List\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aween\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\memeo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
