@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\bin\Debug\net8.0\MohammedNajmOOP.exe
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\bin\Debug\net8.0\MohammedNajmOOP.deps.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\bin\Debug\net8.0\MohammedNajmOOP.runtimeconfig.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\bin\Debug\net8.0\MohammedNajmOOP.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\bin\Debug\net8.0\MohammedNajmOOP.pdb
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.AssemblyInfo.cs
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.sourcelink.json
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\refint\MohammedNajmOOP.dll
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.pdb
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\MohammedNajmOOP.genruntimeconfig.cache
+C:\Users\admin\source\repos\mohammedNajm90\mind-training-\ArrayAndListTasks\MohammedNajmOOP\MohammedNajmOOP\obj\Debug\net8.0\ref\MohammedNajmOOP.dll
