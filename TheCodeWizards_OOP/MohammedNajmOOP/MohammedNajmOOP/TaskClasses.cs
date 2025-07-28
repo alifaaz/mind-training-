@@ -86,5 +86,59 @@ namespace MohammedNajmOOP
             return 2 * (Width + Height);
         }
     }
+    //--------------------------------------------------------------------------------------------------------------
+    //Exercise 4: Create a BankAccount class with attributes account_number and balance. Add methods deposit(amount), withdraw(amount), and check_balance().
+    public class BankAccount
+    {
+        // الخصائص
+        public string AccountNumber { get; private set; }
+        public decimal Balance { get; private set; }
+
+        public BankAccount(string accountNumber, decimal initialBalance = 0)
+        {
+            AccountNumber = accountNumber;
+            Balance = initialBalance;
+        }
+
+        // دالة الإيداع
+        public void Deposit(decimal amount)
+        {
+            if (amount > 0)
+            {
+                Balance += amount;
+                Console.WriteLine($"Deposited: {amount:C}. New Balance: {Balance:C}");
+            }
+            else
+            {
+                Console.WriteLine("Deposit amount must be positive.");
+            }
+        }
+
+        // دالة السحب
+        public void Withdraw(decimal amount)
+        {
+            if (amount <= 0)
+            {
+                Console.WriteLine("Withdraw amount must be positive.");
+            }
+            else if (amount > Balance)
+            {
+                // سحب أكبر من الرصيد
+                Console.WriteLine("Insufficient balance.");
+            }
+            else
+            {
+                Balance -= amount;
+                Console.WriteLine($"Withdrawn: {amount:C}. New Balance: {Balance:C}");
+            }
+        }
+
+        // دالة عرض الرصيد
+        public void CheckBalance()
+        {
+            Console.WriteLine($"Account Number: {AccountNumber}");
+            Console.WriteLine($"Current Balance: {Balance:C}");
+        }
+    }
 
 }

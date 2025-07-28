@@ -17,6 +17,14 @@ using MohammedNajmOOP;
 //Student student1 = new Student("Ali", 16, "10th");
 //student1.Introduce();
 
-Rectangle rect = new Rectangle(5.0, 3.0);
-Console.WriteLine("Area: " + rect.Area());
-Console.WriteLine("Perimeter: " + rect.Perimeter());
+//Rectangle rect = new Rectangle(5.0, 3.0);
+//Console.WriteLine("Area: " + rect.Area());
+//Console.WriteLine("Perimeter: " + rect.Perimeter());
+
+BankAccount account = new BankAccount("123456789", 500);
+account.CheckBalance();
+account.Deposit(200);
+account.Withdraw(100);
+// سحب أكبر من الرصيد
+account.Withdraw(700); 
+account.CheckBalance();
