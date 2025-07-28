@@ -9,12 +9,14 @@ using MohammedNajmOOP;
 //Call methods
 //car1.Start();
 //car1.Stop();
-
 //car2.Start();
 //car2.Stop();
-
 //car3.Start();
 //car3.Stop();
 
-Student student1 = new Student("Ali", 16, "10th");
-student1.Introduce();
+//Student student1 = new Student("Ali", 16, "10th");
+//student1.Introduce();
+
+Rectangle rect = new Rectangle(5.0, 3.0);
+Console.WriteLine("Area: " + rect.Area());
+Console.WriteLine("Perimeter: " + rect.Perimeter());

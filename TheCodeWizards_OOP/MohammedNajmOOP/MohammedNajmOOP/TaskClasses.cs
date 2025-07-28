@@ -60,6 +60,31 @@ namespace MohammedNajmOOP
             Console.WriteLine($"Hi, my name is {Name}, I am {Age} years old and I am in grade {Grade}.");
         }
     }
+    //--------------------------------------------------------------------------------------------------------------
+    //Exercise 3: Create a Rectangle class with attributes width and height. Add methods area() and perimeter() to calculate and return the values.
+    public class Rectangle
+    {
+        // الخصائص
+        public double Width { get; set; }
+        public double Height { get; set; }
 
+        public Rectangle(double width, double height)
+        {
+            Width = width;
+            Height = height;
+        }
+
+        // دالة لحساب المساحة
+        public double Area()
+        {
+            return Width * Height;
+        }
+
+        // دالة لحساب المحيط
+        public double Perimeter()
+        {
+            return 2 * (Width + Height);
+        }
+    }
 
 }
