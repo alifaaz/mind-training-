@@ -38,7 +38,28 @@ namespace MohammedNajmOOP
         }
     }
     //--------------------------------------------------------------------------------------------------------------
-    //Exercise 2:
+    //Exercise 2: Create a Student class with attributes name, age, and grade. Add a method introduce() that prints the student details.
+    class Student
+    {
+        // Properties
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Grade { get; set; }
+
+        // Constructor
+        public Student(string name, int age, string grade)
+        {
+            Name = name;
+            Age = age;
+            Grade = grade;
+        }
+
+        // Method to introduce the student
+        public void Introduce()
+        {
+            Console.WriteLine($"Hi, my name is {Name}, I am {Age} years old and I am in grade {Grade}.");
+        }
+    }
 
 
 }

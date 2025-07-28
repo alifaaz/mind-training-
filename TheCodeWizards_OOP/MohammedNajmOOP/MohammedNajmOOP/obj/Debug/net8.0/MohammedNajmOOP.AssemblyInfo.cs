@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MohammedNajmOOP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f8adf5e8cee015a8065ab9d5922ad7e434d534")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca884f732a6525679b45eb6b24c856de3c6a6a7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MohammedNajmOOP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MohammedNajmOOP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
