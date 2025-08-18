@@ -1,0 +1,14 @@
+/home/rabab/Documents/new/ShoppingCartProject/bin/Debug/net7.0/ShoppingCartProject
+/home/rabab/Documents/new/ShoppingCartProject/bin/Debug/net7.0/ShoppingCartProject.deps.json
+/home/rabab/Documents/new/ShoppingCartProject/bin/Debug/net7.0/ShoppingCartProject.runtimeconfig.json
+/home/rabab/Documents/new/ShoppingCartProject/bin/Debug/net7.0/ShoppingCartProject.dll
+/home/rabab/Documents/new/ShoppingCartProject/bin/Debug/net7.0/ShoppingCartProject.pdb
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.AssemblyInfoInputs.cache
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.AssemblyInfo.cs
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.csproj.CoreCompileInputs.cache
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.dll
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/refint/ShoppingCartProject.dll
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.pdb
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ShoppingCartProject.genruntimeconfig.cache
+/home/rabab/Documents/new/ShoppingCartProject/obj/Debug/net7.0/ref/ShoppingCartProject.dll
