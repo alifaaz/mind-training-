@@ -1,0 +1,14 @@
+/home/rabab/Documents/oop/File/bin/Debug/net7.0/File
+/home/rabab/Documents/oop/File/bin/Debug/net7.0/File.deps.json
+/home/rabab/Documents/oop/File/bin/Debug/net7.0/File.runtimeconfig.json
+/home/rabab/Documents/oop/File/bin/Debug/net7.0/File.dll
+/home/rabab/Documents/oop/File/bin/Debug/net7.0/File.pdb
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.GeneratedMSBuildEditorConfig.editorconfig
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.AssemblyInfoInputs.cache
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.AssemblyInfo.cs
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.csproj.CoreCompileInputs.cache
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.dll
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/refint/File.dll
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.pdb
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/File.genruntimeconfig.cache
+/home/rabab/Documents/oop/File/obj/Debug/net7.0/ref/File.dll
