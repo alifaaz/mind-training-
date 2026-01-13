@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Husian Haider")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6252b46ad55852a0e3f3bd22b54034dda5bb890")]
 [assembly: System.Reflection.AssemblyProductAttribute("Husian Haider")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Husian Haider")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
